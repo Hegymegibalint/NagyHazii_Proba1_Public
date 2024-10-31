@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nagyhazii_Proba1.Model\Nagyhazii_Proba1.Model.csproj" />
+    <ProjectReference Include="..\Nagyhazii_Proba1.Persistence.MsSql\Nagyhazii_Proba1.Persistence.MsSql.csproj" />
+  </ItemGroup>
+
+</Project>
